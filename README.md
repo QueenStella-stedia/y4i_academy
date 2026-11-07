@@ -52,7 +52,6 @@ Site PHP complet : vitrine, fiches formations, services à domicile, carte de Ya
 ├── index.php              # Accueil + formations + services + carte + inscription + contact + admin
 ├── formation.php          # Fiche formation (?slug=...)
 ├── service.php            # Page service (?service=...)
-├── legal.php              # Mentions légales, confidentialité, CGU/CGV, fonds de garantie
 ├── receipt.php            # Reçu imprimable (?id=...&token=...)
 ├── 404.php                # Page 404 personnalisée
 ├── inc_public.php         # En-tête/pied communs aux pages secondaires
@@ -212,7 +211,6 @@ Fonctions disponibles :
 - [ ] Vérifier que `config.php`, `lib.php`, `pay.php`, `inc_public.php`, `data/` renvoient **403/404**.
 - [ ] Sauvegardes automatiques de la base et de `data/uploads/`, avec test de restauration.
 - [ ] Déclarer le site dans Google Search Console et créer une fiche Google Business Profile.
-- [ ] Faire relire `legal.php` par un professionnel du droit.
 
 ---
 
